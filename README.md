@@ -1,2 +1,2 @@
-# bioinfo_Chals
+# PMA_bioinfo_Chals
 bioinformatic_programming_challenges subject
