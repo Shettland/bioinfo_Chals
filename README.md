@@ -4,9 +4,12 @@
 This repository contains the resources for the Assignments of Bioinformatics Programming Challenges (MSc Computational Biology). Each assignment is in a different folder.
 
 Please, download the code from Github into the folder desired. For example: 
+
 ```
-git clone git@github.com:Shettland/retos_assignments.git
+git clone git@github.com:AlbertoGonzalezDelgado/assignments_answers.git
 ```
 
 1. The First assignment is contained here: [Creating Objects](creating_objects/)
+
+2. The Second assignment is contained here: [Intensive integration using Web APIs](intensive_integration/)
 

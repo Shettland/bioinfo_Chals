@@ -33,8 +33,8 @@ class StockDB
     end 
   end
 
-  def get_SeedStock(id:)
-    seed_stock = @seed_stock_data.select{|stock| stock.mutant_gene_id == id.to_s}
+  def get_SeedStock(seedstock_id:)
+    seed_stock = @seed_stock_data.select{|stock| stock.seed_stock == seedstock_id.to_s}
     return seed_stock[0]
   end
 
@@ -61,17 +61,5 @@ class StockDB
       @table.each { |row| tsv << row } 
     end
   end
-
-'''
-  seed_stock_db = StockDB.new
-  seed_stock_db.load_from_file(filepath: "./files/seed_stock_data.tsv")
-
-  print seed_stock_db.get_SeedStock(id: "AT1G30950")
-  print ''
-  print ''
-
-  print seed_stock_db.plant_seeds(grams: 9)
-  seed_stock_db.new_database(new_db: "./files/output.tsv")
-'''
 end
 
