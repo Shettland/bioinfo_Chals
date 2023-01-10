@@ -56,7 +56,7 @@ ruby main.rb <Arabidopsis_Database> <S_pombe_Database> <Arabidopsis.fa>  <S_pomb
 - e-value is the e-value of the blast hit between these two sequences.
 - identity% is the percentaje of the sequences that are the same divided by the total length of the overlap
 
-- Some other text files (first_blast.txt and second_blast.txt) will be generated in the process and can be used to obtain more info about each blast.
+- Some other text files (first_blast_unfiltered.txt and second_blast_unfiltered.txt) will be generated in the process and can be used to obtain more info about each blast.
 
 - The command line output is verbose, some of which will be saved into a [output txt file](documents/). 
 
