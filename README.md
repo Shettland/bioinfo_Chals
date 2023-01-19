@@ -6,7 +6,7 @@ This repository contains the resources for the Assignments of Bioinformatics Pro
 Please, download the code from Github into the folder desired. For example: 
 
 ```
-git clone https://github.com/Shettland/retos_assignments.git
+git clone git@github.com:AlbertoGonzalezDelgado/assignments_answers.git
 ```
 
 1. The First assignment is contained here: [Creating Objects](creating_objects/)
@@ -17,4 +17,4 @@ git clone https://github.com/Shettland/retos_assignments.git
 
 4. The Fourth assignment is contained here: [Orthologues](orthologues/)
 
-5. The Fifth assignment is contained here
+5. The Fifth assignment is contained here: [SPARQL](SPARQL/)

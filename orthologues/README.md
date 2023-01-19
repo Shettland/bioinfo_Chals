@@ -23,11 +23,11 @@ Besides filtering low-complexity sequences, we did not filter the hits obtained 
 
 * [BioRuby-Gem](https://rubygems.org/gems/bio-gem/versions/1.3.6)
 ```
-gem install bio
+gem install bio-gem
 ```
 * [Fasta files](https://drive.google.com/drive/folders/0B7FLMiAz5IXPTWJDSkk1MTFPMjg?resourcekey=0-yhXCH6PxXIvg9xwMSolpMw)
 
-* BLAST-formatted databases for the analysis are already created within the script.
+* BLAST-formatted databases are created within the script
 
 ## Usage:
 
@@ -50,7 +50,7 @@ ruby main.rb <Arabidopsis_Database> <S_pombe_Database> <Arabidopsis.fa>  <S_pomb
 
 - Some other text files (first_blast_unfiltered.txt and second_blast_unfiltered.txt) will be generated in the process and can be used to obtain more info about each blast.
 
-- The command line output is verbose, some of which will be saved into a [output txt file](documents/). 
+The command line output is verbose, some of which will be saved into a [output txt file](documents/). 
 
 ## Bonus Point:
 
